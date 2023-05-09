@@ -1,4 +1,4 @@
-FROM shoothzj/base
+FROM shoothzj/base:python
 
 WORKDIR /opt
 
