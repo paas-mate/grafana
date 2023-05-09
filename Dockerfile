@@ -2,7 +2,7 @@ FROM shoothzj/base
 
 WORKDIR /opt
 
-ARG version=9.3.1
+ARG version=9.5.1
 ARG TARGETARCH
 
 RUN wget https://dl.grafana.com/oss/release/grafana-$version.linux-$TARGETARCH.tar.gz && \
